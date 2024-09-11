@@ -1,3 +1,7 @@
 .interestList {
   margin-left: 10px;
 }
+
+.interestList li {
+  font-size: 20px;
+}
