@@ -68,6 +68,24 @@ export default function Home() {
       <p>Is it Tuesday: {String(isTuesday)}</p>
       <p>Show Null: {String(null)}</p>
       <button onClick={openModal}>View Sun</button>
+
+      <div className={homeStyles.product}>
+        <h3>Tofu</h3>
+        <p>This is definitely tofu.</p>
+        <img
+          src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/1d1c83da-7e31-4e77-916f-96faf7003173/d2z2tzw-033be9ea-1aee-4a43-bb37-12a615824631.png/v1/fit/w_700,h_700,q_70,strp/a_can_of_spam_by_zellfaze_d2z2tzw-375w-2x.jpg"
+          alt="Real picture of tofu"
+        />
+      </div>
+
+      <div className={homeStyles.product}>
+        <h3>Tofu</h3>
+        <p>This is definitely tofu.</p>
+        <img
+          src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/1d1c83da-7e31-4e77-916f-96faf7003173/d2z2tzw-033be9ea-1aee-4a43-bb37-12a615824631.png/v1/fit/w_700,h_700,q_70,strp/a_can_of_spam_by_zellfaze_d2z2tzw-375w-2x.jpg"
+          alt="Real picture of tofu"
+        />
+      </div>
     </main>
   );
 }
