@@ -1,7 +1,7 @@
 "use client";
 import homeStyles from "@/app/page.module.css";
 
-export default function Home() {
+export default function home() {
   const headerStyle = {
     backgroundColor: "lightcoral",
     height: "100px",
