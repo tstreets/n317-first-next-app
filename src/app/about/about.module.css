@@ -1,0 +1,8 @@
+.interestList {
+  margin-left: 10px;
+}
+
+.interestList li {
+  list-style-image: url("/free-dog.webp");
+  margin-left: 50px;
+}
