@@ -86,6 +86,15 @@ export default function Home() {
           alt="A CAN of SPAM"
         />
       </div>
+
+      <div className={homeStyles.product}>
+        <h3>Spinach</h3>
+        <p>This is a leaf of spinach.</p>
+        <img
+          src="https://www.ultraboardgames.com/tofu-kingdom/gfx/game7.jpg"
+          alt="Just a measley leaf of spinach"
+        />
+      </div>
     </main>
   );
 }
