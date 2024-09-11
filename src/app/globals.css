@@ -22,3 +22,8 @@ p {
 section {
   padding: 10px 8px;
 }
+
+ul li {
+  margin-left: 50px;
+  list-style-image: url("/free-dog.webp");
+}
